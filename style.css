@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Comfortaa:wght@300&family=Open+Sans:wght@300;400;700&family=Oswald:wght@300&display=swap');
+
 /* reset */
 *{
     margin: 0;
@@ -34,7 +36,7 @@ header{
 /* nav + querys */
 
 nav{
-    background-color:rgb(236, 57, 197);
+    background-color:#F4ACB7;
     width: 100%;
 }
 
@@ -43,8 +45,8 @@ nav ul{
     justify-content: space-evenly;
     list-style: none;
 }
-nav ul:hover{
-    transform: scale(1.1);
+nav ul li:hover{
+    transform: scale(1.15);
 }
 nav ul li{
     padding: 10px;
@@ -80,12 +82,19 @@ main{
 /* portada + querys */
 
 .portada{
-    background-image: url(./img/portada.PNG);
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(244,172,183,1) 35%);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 300px;
-    
+    height: 200px;
+}
+.portada p{
+    font-size: 80px;
+    font-style: italic;
+    text-align: center;
+    padding-top: 50px;
+    color: #fff;
 }
 @media screen and (max-width: 768px){
     .portada{
@@ -154,7 +163,7 @@ main{
     font-size: 42px;
     font-weight: 700;
     opacity: 1;
-    background-color: rgb(167, 164, 164);
+    /* background-color: rgb(167, 164, 164); */
     background-repeat: no-repeat;
     background-size: cover; 
     
@@ -180,7 +189,7 @@ main{
 }
 
 .boton-card{
-    background-color:rgb(236, 57, 197) ;
+    background-color:#E054B8;
     color: #fff;
     text-decoration: none;
     font-size: 16px;
@@ -247,17 +256,79 @@ main{
 
 /* titulo secundario + querys */
 
-.title-secondary{
+/* .title-secondary{
+    font-style: italic;
+    font-family: 'Rouge Script';
     padding: 20px;
     margin-top: 10px;
-    background-color: rgb(245, 245, 200);
+    background-color: #FFCAD4;
     color: #000;
     width: 100%;
+} */
+
+/* .title-secondary h2{
+    text-align: center;
+} */
+
+.title-secondary{
+    display: flex;
+    background-color: #fff;
+    text-align: center;
+    justify-content: center;
 }
 
-.title-secondary h2{
-    text-align: center;
+.title-secondary .texto-estatico{
+    color: #000;
+    font-size: 35px;
+    font-weight: 400;
 }
+
+.texto-dinamico li{
+    list-style: none;
+    color: #FFCAD4;
+    font-size: 35px;
+    font-weight: 500;
+    top: 0;
+    position: relative;
+    animation: slide 12s steps(3) infinite;
+}
+
+@keyframes slide{
+    100%{
+        top: -100px;
+    }
+}
+
+.title-secondary .texto-dinamico{
+    margin-left: 10px;
+    line-height: 35px;
+    height: 35px;
+    overflow: hidden;
+    text-align: left;
+}
+
+.texto-dinamico li::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    border-left: 2px solid #FFCAD4;
+    animation: typing 4s steps(10) infinite;
+    background-color: #fff;
+}
+
+@keyframes typing {
+    40%,
+    60%{
+        left: calc(100% + 30px);
+    100% {
+        left:0;
+    }    
+    }
+}
+
+
 
 
 /* tarjetas de productos */
@@ -291,13 +362,14 @@ main{
     text-decoration: none;
     height: 30px;
     width: 250px;
-    background-color:rgb(236, 57, 197);
+    background-color:#E054B8;
     color: #fff;
     font-size: 18px;
     font-family: sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 4PX;
 }
 
 .boton:hover{
@@ -308,7 +380,7 @@ main{
 /* footer + querys */
 
 footer{
-    background-color: rgb(236, 57, 197);
+    background-color: #F4ACB7;
     display: flex;
     justify-content:space-evenly;
     align-items: flex-start;
@@ -354,4 +426,62 @@ footer .contacto-footer ul a{
         max-width: 480px;
         align-items: flex-start;
     }
+}
+
+.icons{
+    display: flex;
+    column-gap: 25px;
+    padding: 20px;
+    align-content: flex-end;
+}
+
+.icon{
+    width: 60px;
+    height: 60px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 26px;
+    color: #fff;
+    border-radius: 50%;
+    outline: 2px solid #a02d76;
+    transition-property: outline-offset, outline-color, background-color;
+    transition-duration: .25s;
+}
+
+.icon .svg{
+    width: 40px;
+    height: 40px;
+}
+.icon:hover{
+    outline-offset: 4px;
+}
+
+.icon:hover i{
+    animation: shake .25s;
+}
+
+.icon--instagram:hover{
+    background-image: radial-gradient(circle at 30% 107%,
+    #fdf497 0%, #fdf497 5%, #fd5949 45%, #d62497 60%,
+    #285aeb 90%);
+    outline-color: #a02d76;
+}
+
+.icon--linkedin:hover{
+    background-color: #0077b5;
+    outline-color:#0077b5;
+    }
+
+.icon--github:hover{
+    background-color: #2ea44f;
+    outline-color: #2ea44f;
+}
+
+@keyframes shake {
+    10%{transform: rotate(15deg);}
+    20%{transform: rotate(-15deg);}
+    30%{transform: rotate(15deg);}
+    40%{transform: rotate(-15deg);}
 }

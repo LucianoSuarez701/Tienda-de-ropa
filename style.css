@@ -353,3 +353,10 @@ textarea{
     padding-bottom: 40px;
     box-sizing: border-box;
 }
+
+/* estilo de quienes somos */
+
+.container-parrafo{
+    font-weight: bold;
+    padding: 10px;
+}

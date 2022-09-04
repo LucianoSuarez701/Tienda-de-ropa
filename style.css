@@ -179,3 +179,18 @@
     }
 
 }
+
+/* tarjetas de productos */
+
+.mar{
+    margin: 20px;
+}
+
+#boton{
+    background-color:#E054B8;
+    border: none;
+}
+
+.boton:hover{
+    transform: scale(1.1);
+}

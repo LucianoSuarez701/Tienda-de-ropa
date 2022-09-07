@@ -55,6 +55,18 @@
     color: #fff;
 }
 
+@media (max-width: 586px) {
+    .portada p{
+        font-size: 50px;
+    }
+}
+
+/* beneficios + querys */
+@media (max-width: 586px) {
+    .beneficios div {
+        font-size: 14px;
+    }
+}
 /* box de imagenes con redireccion + querys*/
 
 .img-1{
@@ -178,6 +190,23 @@
         left:0;
     }
 
+}
+
+@media (max-width: 586px) {
+    .title-secondary{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+@media (max-width: 586px) {
+    .texto-dinamico li {
+        font-size: 30px;
+    }
+}
+@media (max-width: 586px) {
+    .texto-estatico p {
+        font-size: 25px;
+    }
 }
 
 /* tarjetas de productos */
@@ -358,5 +387,12 @@ textarea{
 
 .container-parrafo{
     font-weight: bold;
+    padding: 10px;
+}
+
+/* estilo de devoluciones */
+
+.devoluciones p{
+    font-family: cursive;
     padding: 10px;
 }

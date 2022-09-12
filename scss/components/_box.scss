@@ -1,0 +1,53 @@
+/* box de imagenes con redireccion + querys*/
+
+.box-imagenes{
+    .img-1{
+        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSziFjAtvhUp-gZ5vNMn-4VE7JkIKVzrF-WEw&usqp=CAU);
+        width: 300px;
+        height: 300px;
+        display: flex;
+        align-items: flex-end;
+        flex-direction: column;
+        justify-content: center;
+        color: #fff;
+        font-size: 42px;
+        font-weight: 700;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 20px 0;
+    }
+    .img-2{
+        background-image: url(https://www.jessannkirby.com/wp-content/uploads/2019/10/Jess-Ann-Kirby-How-to-Wear-Oversize-Sweaters-1740493.jpg);
+        width: 300px;
+        height: 300px;
+        display: flex;
+        align-items: flex-end;
+        flex-direction: column;
+        justify-content: center;
+        color: #fff;
+        font-size: 42px;
+        font-weight: 700;
+        background-repeat: no-repeat;
+        background-size: cover;
+    
+    }
+    .img-3{
+        background-image: url(https://i.pinimg.com/236x/86/77/3c/86773ce21db1a6037104eddb2ff85470.jpg);
+        width: 300px;
+        height: 300px;
+        display: flex;
+        align-items: flex-end;
+        flex-direction: column;
+        justify-content: center;
+        color: #fff;
+        font-size: 42px;
+        font-weight: 700;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 20px 0;
+    }
+}
+
+.card{
+    margin: 20px;
+}

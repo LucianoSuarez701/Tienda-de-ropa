@@ -1,0 +1,78 @@
+.beneficios{
+    div{
+        @media (max-width: 586px){
+            font-size: 14px;
+        }
+    }
+}
+
+.title-secondary{
+    background-color: rgb(255, 255, 255);
+    height: 200px;
+
+    .texto-estatico{
+        color: #000;
+        font-size: 35px;
+        font-weight: 400;
+
+        p{
+            @media (max-width: 586px){
+                font-size: 25px;
+            }
+        }
+    }
+
+    .texto-dinamico{
+        line-height: 35px;
+        height: 35px;
+        overflow: hidden;
+        text-align: left;
+
+        @keyframes slide{
+            100%{
+                top: -100px;
+            }
+        }
+
+        @keyframes typing {
+            40%,
+            60%{
+                left: calc(100% + 30px);
+            }
+            100% {
+                left:0;
+            }
+        
+        }
+
+        li{
+            list-style: none;
+            color: #FFCAD4;
+            font-size: 35px;
+            font-weight: 500;
+            top: 0;
+            position: relative;
+            animation: slide 12s steps(3) infinite;
+
+            &::after{
+                content: "";
+                position: absolute;
+                left: 0;
+                height: 100%;
+                width: 100%;
+                border-left: 2px solid #FFCAD4;
+                animation: typing 4s steps(10) infinite;
+                background-color: #fff;
+            }
+
+            @media (max-width: 586px){
+                font-size: 30px;
+            }
+        }
+    }
+
+    @media (max-width: 586px){
+        display: flex;
+        flex-wrap: wrap;
+    }
+}

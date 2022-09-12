@@ -1,0 +1,44 @@
+.boton-card{
+    background-color:#E054B8;
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    height: 30px;
+    width: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+    border-radius: 5px;
+
+    &:hover{
+        transform: scale(1.1);
+        color: #fff;
+    }
+}
+
+#boton{
+    background-color:#E054B8;
+    border: none;
+
+    &:hover{
+        transform: scale(1.1);
+    }
+}
+
+#boton-formulario{
+        background: palevioletred;
+        border: none;
+        color: white;
+        font-size: 17px;
+        padding: 20px;
+        padding-bottom: 40px;
+        box-sizing: border-box;
+        border-radius: 5px;
+
+        &:hover{
+            transform: scale(1.1);
+            color: #fff;
+        }
+    }
+

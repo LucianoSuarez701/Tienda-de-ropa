@@ -1,0 +1,48 @@
+
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: auto;
+}
+
+nav{
+    background-color: #F4ACB7;
+
+    ul{
+        width: 100%;
+    }
+
+    .navbar-nav{
+        li{
+            a{
+                        text-decoration: none;
+                        color: #fff;
+                        font-size: 20px;
+                        font-weight: 600;
+            }
+        }
+    }
+}
+
+.portada{
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(244,172,183,1) 35%);
+    background-position: center;
+    width: 100%;
+    height: 200px;
+
+    p{
+        font-size: 80px;
+        font-style: italic;
+        text-align: center;
+        padding-top: 50px;
+        color: #fff;
+
+        @media (max-width: 586px){
+            font-size: 50px;
+        }
+    }
+}

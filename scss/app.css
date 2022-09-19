@@ -167,6 +167,10 @@ nav .navbar-nav li a {
 .card {
   margin: 20px;
 }
+.card img {
+  height: 400px;
+  width: auto;
+}
 
 .icons {
   display: flex;

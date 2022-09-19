@@ -7,3 +7,13 @@ productos:
 
 se agrego el H1 a la portada y se le cambio el contenido con el nombre de la pagina "productos", se verificaron etiquetas semanticas y agrego keywords,
 metadescription y title segun rubricas.
+
+quienes somos?:
+
+se agrego el H1 a la portada y se le cambio el contenido con el nombre de la pagina "Quienes somos?", se verificaron etiquetas semanticas y agrego keywords,
+metadescription y title segun rubricas.
+
+Contacto:
+
+se agrego el H1 a la portada y se le cambio el contenido con el nombre de la pagina "contacto", se verificaron etiquetas semanticas y agrego keywords,
+metadescription y title segun rubricas.

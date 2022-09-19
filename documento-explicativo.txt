@@ -1,0 +1,9 @@
+index:
+
+se agrego el H1 a la portada con el nombre del emprendimiento, se verificaron etiquetas semanticas y agrego keywords,
+metadescription y title segun rubricas.
+
+productos:
+
+se agrego el H1 a la portada y se le cambio el contenido con el nombre de la pagina "productos", se verificaron etiquetas semanticas y agrego keywords,
+metadescription y title segun rubricas.

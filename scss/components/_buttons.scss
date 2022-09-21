@@ -1,6 +1,6 @@
 .boton-card{
-    background-color:#E054B8;
-    color: #fff;
+    background-color:$button-color;
+    color: $secondary-color;
     text-decoration: none;
     font-size: 16px;
     height: 30px;
@@ -13,12 +13,12 @@
 
     &:hover{
         transform: scale(1.1);
-        color: #fff;
+        color: $secondary-color;
     }
 }
 
 #boton{
-    background-color:#E054B8;
+    background-color:$button-color;
     border: none;
 
     &:hover{
@@ -27,9 +27,9 @@
 }
 
 #boton-formulario{
-        background: palevioletred;
+        background: $button-color;
         border: none;
-        color: white;
+        color: $secondary-color;
         font-size: 17px;
         padding: 20px;
         padding-bottom: 40px;
@@ -38,7 +38,7 @@
 
         &:hover{
             transform: scale(1.1);
-            color: #fff;
+            color: $secondary-color;
         }
     }
 

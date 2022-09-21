@@ -24,3 +24,5 @@ devoluciones:
 
 se agrego el H1 a la portada y se le cambio el contenido con el nombre de la pagina "devoluciones", se verificaron etiquetas semanticas y agrego keywords,
 metadescription y title segun rubricas.
+
+se agregaron variables de color y se las utilizo en todas las paginas

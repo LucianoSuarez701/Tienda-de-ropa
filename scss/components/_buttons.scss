@@ -2,7 +2,7 @@
     background-color:$button-color;
     color: $secondary-color;
     text-decoration: none;
-    font-size: 16px;
+    font-size: map-get($font-sz, font-s );
     height: 30px;
     width: 140px;
     display: flex;
@@ -30,7 +30,7 @@
         background: $button-color;
         border: none;
         color: $secondary-color;
-        font-size: 17px;
+        font-size: map-get($font-sz, font-s);
         padding: 20px;
         padding-bottom: 40px;
         box-sizing: border-box;

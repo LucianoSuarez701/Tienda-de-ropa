@@ -17,7 +17,7 @@
 
     h5{
         color: $secondary-color;
-        font-size: 18px;
+        font-size: map-get($font-sz, font-s);
         font-weight: bold;
         display: flex;
         justify-content: center;

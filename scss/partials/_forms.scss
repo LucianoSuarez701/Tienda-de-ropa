@@ -38,7 +38,7 @@
     .titulo-contacto{
         text-align: center;
         margin: 0;
-        font-size: 30px;
+        font-size: map-get($font-sz, font-s );
         margin-bottom: 20px;
     }
 }

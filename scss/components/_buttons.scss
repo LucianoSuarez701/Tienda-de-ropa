@@ -4,7 +4,7 @@
     background-color: $button-color;
     color: $secondary-color;
     text-decoration: none;
-    font-size: 16px;
+    font-size: map-get($font-sz, font-s);
     height: 30px;
     width: 140px;
     display: flex;

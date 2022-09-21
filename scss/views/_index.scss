@@ -3,7 +3,7 @@
 .beneficios{
     div{
         @media (max-width: 586px){
-            font-size: 14px;
+            font-size: map-get($font-sz, font-xs );
         }
     }
 }
@@ -19,7 +19,7 @@
 
         p{
             @media (max-width: 586px){
-                font-size: 25px;
+                font-size: map-get($font-sz, font-s );
             }
         }
     }
@@ -68,7 +68,7 @@
             }
 
             @media (max-width: 586px){
-                font-size: 30px;
+                font-size: map-get($font-sz, font-s );
             }
         }
     }

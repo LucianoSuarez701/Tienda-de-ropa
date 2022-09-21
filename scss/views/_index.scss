@@ -1,7 +1,7 @@
 .beneficios{
     div{
         @media (max-width: 586px){
-            font-size: 14px;
+            font-size: map-get($font-sz, font-xs );
         }
     }
 }
@@ -17,7 +17,7 @@
 
         p{
             @media (max-width: 586px){
-                font-size: 25px;
+                font-size: map-get($font-sz, font-s );
             }
         }
     }
@@ -48,7 +48,7 @@
         li{
             list-style: none;
             color: $primary-color;
-            font-size: 35px;
+            font-size: map-get($font-sz, font-m );
             font-weight: 500;
             top: 0;
             position: relative;
@@ -66,7 +66,7 @@
             }
 
             @media (max-width: 586px){
-                font-size: 30px;
+                font-size: map-get($font-sz, font-s );
             }
         }
     }

@@ -1,5 +1,5 @@
 .footer {
-  background-color: #F4ACB7;
+  background-color: rgba(163, 49, 3, 0.3);
   display: flex;
   justify-content: space-evenly;
   align-items: flex-start;
@@ -39,7 +39,7 @@
 }
 
 nav {
-  background-color: #F4ACB7;
+  background-color: rgba(163, 49, 3, 0.3);
 }
 nav ul {
   width: 100%;
@@ -53,7 +53,7 @@ nav .navbar-nav li a {
 
 .portada {
   background: #ffffff;
-  background: linear-gradient(0deg, #ffffff 0%, #F4ACB7 35%);
+  background: linear-gradient(0deg, #ffffff 0%, rgba(163, 49, 3, 0.3) 35%);
   background-position: center;
   width: 100%;
   height: 200px;
@@ -81,7 +81,7 @@ nav .navbar-nav li a {
   background-color: #E054B8;
   color: #ffffff;
   text-decoration: none;
-  font-size: 16px;
+  font-size: 20px;
   height: 30px;
   width: 140px;
   display: flex;
@@ -186,8 +186,8 @@ nav .navbar-nav li a {
   align-items: center;
   justify-content: center;
   text-decoration: none;
-  font-size: 26px;
-  color: #fff;
+  font-size: 20px;
+  color: #ffffff;
   border-radius: 50%;
   outline: 2px solid #a02d76;
   transition-property: outline-offset, outline-color, background-color;
@@ -280,13 +280,13 @@ nav .navbar-nav li a {
 .container-formulario .titulo-contacto {
   text-align: center;
   margin: 0;
-  font-size: 30px;
+  font-size: 20px;
   margin-bottom: 20px;
 }
 
 @media (max-width: 586px) {
   .beneficios div {
-    font-size: 14px;
+    font-size: 20px;
   }
 }
 
@@ -301,7 +301,7 @@ nav .navbar-nav li a {
 }
 @media (max-width: 586px) {
   .title-secondary .texto-estatico p {
-    font-size: 25px;
+    font-size: 20px;
   }
 }
 .title-secondary .texto-dinamico {
@@ -338,7 +338,7 @@ nav .navbar-nav li a {
 }
 .title-secondary .texto-dinamico li {
   list-style: none;
-  color: #F4ACB7;
+  color: rgba(163, 49, 3, 0.3);
   font-size: 35px;
   font-weight: 500;
   top: 0;
@@ -352,14 +352,14 @@ nav .navbar-nav li a {
   left: 0;
   height: 100%;
   width: 100%;
-  border-left: 2px solid #F4ACB7;
+  border-left: 2px solid rgba(163, 49, 3, 0.3);
   -webkit-animation: typing 4s steps(10) infinite;
           animation: typing 4s steps(10) infinite;
   background-color: #ffffff;
 }
 @media (max-width: 586px) {
   .title-secondary .texto-dinamico li {
-    font-size: 30px;
+    font-size: 20px;
   }
 }
 @media (max-width: 586px) {

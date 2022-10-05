@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Comfortaa:wght@300&family=Mulish:wght@300&family=Open+Sans:wght@300;400;700&family=Oswald:wght@300&family=Poppins:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Comfortaa:wght@300&family=Mulish:wght@300&family=Open+Sans:wght@300;400;700&family=Oswald:wght@300&family=Poppins:wght@300&display=swap");
 .footer {
   background-color: #F4ACB7;
   display: flex;
@@ -30,40 +32,39 @@
   color: #ffffff;
 }
 
-.logo {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 250px;
-  height: auto;
+.bienvenida {
+  background-color: rgba(163, 49, 3, 0.3019607843);
+}
+.bienvenida p {
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
 }
 
 nav {
-  background-color: #F4ACB7;
+  background-color: #ffffff;
 }
 nav ul {
   width: 100%;
 }
 nav .navbar-nav li a {
   text-decoration: none;
-  color: #ffffff;
+  color: #A33103;
   font-size: 20px;
   font-weight: 600;
 }
 
 .portada {
   background: #ffffff;
-  background: linear-gradient(0deg, #ffffff 0%, #F4ACB7 35%);
-  background-position: center;
   width: 100%;
   height: 200px;
 }
 .portada h1 {
-  font-size: 80px;
-  font-style: italic;
+  font-size: 60px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
   text-align: center;
   padding-top: 50px;
-  color: #ffffff;
+  color: #000000;
 }
 @media (max-width: 586px) {
   .portada h1 {
@@ -245,6 +246,18 @@ nav .navbar-nav li a {
   outline-color: #2ea44f;
 }
 
+.beneficios div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.beneficios div img {
+  height: 80px;
+  width: 80px;
+  color: #A33103;
+}
+
 .container-formulario {
   width: 350px;
   height: 450px;
@@ -284,6 +297,31 @@ nav .navbar-nav li a {
   margin-bottom: 20px;
 }
 
+.image-background img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.beneficios div {
+  color: #A33103;
+}
+.beneficios div h3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 1.4;
+}
+.beneficios div p {
+  font-family: "Mulish", sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 16px;
+}
 @media (max-width: 586px) {
   .beneficios div {
     font-size: 20px;

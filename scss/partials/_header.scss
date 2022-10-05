@@ -1,15 +1,19 @@
+@import "../variables";
+
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Comfortaa:wght@300&family=Mulish:wght@300&family=Open+Sans:wght@300;400;700&family=Oswald:wght@300&family=Poppins:wght@300&display=swap');
 
 
-.logo{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 250px;
-    height: auto;
+
+.bienvenida{
+    background-color: $cuartiary-color;
+    p{
+    color: $secondary-color;
+    font-family: 'Poppins', sans-serif;
+    }
 }
 
 nav{
-    background-color: $primary-color;
+    background-color: $secondary-color;
 
     ul{
         width: 100%;
@@ -19,7 +23,7 @@ nav{
         li{
             a{
                         text-decoration: none;
-                        color: $secondary-color;
+                        color: $tertiary-color;
                         font-size: 20px;
                         font-weight: 600;
             }
@@ -29,17 +33,16 @@ nav{
 
 .portada{
     background: $secondary-color;
-    background: linear-gradient(0deg, $secondary-color 0%, $primary-color 35%);
-    background-position: center;
     width: 100%;
     height: 200px;
 
     h1{
-        font-size: 80px;
-        font-style: italic;
+        font-size: 60px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 700;
         text-align: center;
         padding-top: 50px;
-        color: $secondary-color;
+        color: $black-color;
 
         @media (max-width: 586px){
             font-size: 50px;

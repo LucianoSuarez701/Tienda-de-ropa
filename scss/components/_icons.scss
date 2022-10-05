@@ -57,3 +57,17 @@
         outline-color: #2ea44f;
     }
 }
+
+.beneficios{
+    div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        img{
+            height: 80px;
+            width: 80px;
+            color:#A33103;
+        }
+    }
+}

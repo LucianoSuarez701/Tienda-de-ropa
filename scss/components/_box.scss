@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Comfortaa:wght@300&family=Mulish:wght@300&family=Open+Sans:wght@300;400;700&family=Oswald:wght@300&family=Poppins:wght@300&display=swap');
+
+
 @import "../variables";
 
 /* box de imagenes con redireccion + querys*/
@@ -56,6 +59,18 @@
     img{
         height: 400px;
         width: auto;
+    }
+
+    h5{
+        color: $tertiary-color;
+        font-size: 16px;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    p{
+        color: $gold-color;
+        font-family: 'Muli', sans-serif;
+        font-weight: bold;
     }
 
 }

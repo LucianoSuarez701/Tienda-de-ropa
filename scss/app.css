@@ -95,7 +95,7 @@ nav .navbar-nav li a:hover {
   align-items: center;
   justify-content: center;
   border-radius: 10px;
-  margin-bottom: 10px;
+  margin-bottom: 50px;
 }
 .boton-card:hover {
   transform: scale(1.1);
@@ -142,7 +142,7 @@ nav .navbar-nav li a:hover {
   background-size: cover;
   background-color: #f4a152;
   background-blend-mode: hard-light;
-  margin: 20px 0;
+  border-radius: 10px;
 }
 .box-imagenes .img-2 {
   background-image: url(https://d2r9epyceweg5n.cloudfront.net/stores/001/044/820/products/india6811-acf5ccfd08eecdc64216637260605424-1024-1024.jpeg);
@@ -159,6 +159,7 @@ nav .navbar-nav li a:hover {
   background-size: cover;
   background-color: rgb(47, 47, 49);
   background-blend-mode: hard-light;
+  border-radius: 10px;
 }
 .box-imagenes .img-3 {
   background-image: url(https://d2r9epyceweg5n.cloudfront.net/stores/001/044/820/products/dsc_0119-21-0c81404778253e675216043295153415-1024-1024.jpg);
@@ -175,7 +176,7 @@ nav .navbar-nav li a:hover {
   background-size: cover;
   background-color: rgb(47, 47, 49);
   background-blend-mode: hard-light;
-  margin: 10px 0;
+  border-radius: 10px;
 }
 
 .card {

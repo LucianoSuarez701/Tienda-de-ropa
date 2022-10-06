@@ -21,7 +21,8 @@
         background-size: cover;
         background-color:$gold-color ;
         background-blend-mode:hard-light;
-        margin: 20px 0;
+
+        border-radius: 10px;
         
     }
     .img-2{
@@ -39,7 +40,7 @@
         background-size: cover;
         background-color:$background-color ;
         background-blend-mode:hard-light;
-    
+        border-radius: 10px;
     }
     .img-3{
         background-image: url(https://d2r9epyceweg5n.cloudfront.net/stores/001/044/820/products/dsc_0119-21-0c81404778253e675216043295153415-1024-1024.jpg);
@@ -56,7 +57,7 @@
         background-size: cover;
         background-color:$background-color ;
         background-blend-mode:hard-light;
-        margin: 10px 0;
+        border-radius: 10px;
     }
 }
 

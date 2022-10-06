@@ -55,8 +55,10 @@ nav .navbar-nav li a {
 }
 nav .navbar-nav li a:hover {
   scale: 1.1;
-  color: rgba(163, 49, 3, 0.3019607843);
-  border-radius: 30px;
+  border-radius: 20px;
+  color: #A33103;
+  border-color: #A33103;
+  border: solid 1px;
 }
 
 .portada {

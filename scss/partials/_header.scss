@@ -29,8 +29,10 @@ nav{
 
                 &:hover{
                     scale: 1.1;
-                    color: $cuartiary-color;
-                    border-radius: 30px;
+                    border-radius: 20px;
+                    color: $tertiary-color;
+                    border-color: $tertiary-color;
+                    border: solid 1px;
                 }
             }
         }

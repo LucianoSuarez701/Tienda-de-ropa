@@ -45,3 +45,23 @@
         }
     }
 
+.boton-productos{
+            background-color: $gold-color;
+            color: $secondary-color;
+            border:none;
+
+            &:hover, &:active, &:focus{
+            background-color: $secondary-color;
+            color: $gold-color;
+            border: none;
+        }
+}   
+
+.menu-desplegable{
+    li{
+        a{
+            color: $gold-color;
+        }
+    }
+}
+

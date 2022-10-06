@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Comfortaa:wght@300&family=Mulish:wght@300&family=Open+Sans:wght@300;400;700&family=Oswald:wght@300&family=Poppins:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Comfortaa:wght@300&family=Mulish:wght@300&family=Open+Sans:wght@300;400;700&family=Oswald:wght@300&family=Poppins:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Comfortaa:wght@300&family=Mulish:wght@300&family=Open+Sans:wght@300;400;700&family=Oswald:wght@300&family=Poppins:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Comfortaa:wght@300&family=Mulish:wght@300&family=Open+Sans:wght@300;400;700&family=Oswald:wght@300&family=Poppins:wght@300&display=swap");
 .footer {
   padding-top: 20px;
   border-top: 0.5px solid;
@@ -67,25 +68,6 @@ nav .navbar-nav li a:hover {
   border: solid 1px;
 }
 
-.portada {
-  background: #ffffff;
-  width: 100%;
-  height: 200px;
-}
-.portada h1 {
-  font-size: 40px;
-  font-family: "Poppins", sans-serif;
-  font-weight: 700;
-  text-align: center;
-  padding-top: 10px;
-  color: #000000;
-}
-@media (max-width: 586px) {
-  .portada h1 {
-    font-size: 50px;
-  }
-}
-
 * {
   margin: 0;
   padding: 0;
@@ -132,6 +114,21 @@ nav .navbar-nav li a:hover {
 #boton-formulario:hover {
   transform: scale(1.1);
   color: #ffffff;
+}
+
+.boton-productos {
+  background-color: #f4a152;
+  color: #ffffff;
+  border: none;
+}
+.boton-productos:hover, .boton-productos:active, .boton-productos:focus {
+  background-color: #ffffff;
+  color: #f4a152;
+  border: none;
+}
+
+.menu-desplegable li a {
+  color: #f4a152;
 }
 
 /* box de imagenes con redireccion + querys*/
@@ -328,6 +325,25 @@ nav .navbar-nav li a:hover {
   margin-bottom: 20px;
 }
 
+.portada-index {
+  background: #ffffff;
+  width: 100%;
+  height: 200px;
+}
+.portada-index h1 {
+  font-size: 40px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  text-align: center;
+  padding-top: 10px;
+  color: #000000;
+}
+@media (max-width: 586px) {
+  .portada-index h1 {
+    font-size: 50px;
+  }
+}
+
 .beneficios div {
   color: #A33103;
 }
@@ -430,4 +446,23 @@ nav .navbar-nav li a:hover {
 .devoluciones p {
   font-family: cursive;
   padding: 100px;
+}
+
+.portada-productos {
+  background: #ffffff;
+  width: 100%;
+  height: 200px;
+}
+.portada-productos h1 {
+  font-size: 60px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  text-align: center;
+  padding-top: 40px;
+  color: #A33103;
+}
+@media (max-width: 586px) {
+  .portada-productos h1 {
+    font-size: 50px;
+  }
 }/*# sourceMappingURL=app.css.map */

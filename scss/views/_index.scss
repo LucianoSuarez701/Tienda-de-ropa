@@ -69,7 +69,6 @@
                 left: 0;
                 height: 100%;
                 width: 100%;
-                // border-left: 2px solid $gold-color;
                 animation: typing 5s steps(15) infinite;
                 background-color: $secondary-color;
             }
@@ -83,27 +82,5 @@
     @media (max-width: 586px){
         display: flex;
         flex-wrap: wrap;
-    }
-}
-
-.banner{
-    div{  
-
-        img{
-            padding: 20px;
-            height: 100%;
-            width: 100%;
-            background-position: center;
-            background-repeat: no-repeat;
-        }  
-        h2{
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            z-index: 9;
-            width: 100%;
-            color: #fff;
-            transform: translate(-50%, -50%);
-        }
     }
 }

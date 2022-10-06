@@ -7,49 +7,56 @@
 
 .box-imagenes{
     .img-1{
-        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSziFjAtvhUp-gZ5vNMn-4VE7JkIKVzrF-WEw&usqp=CAU);
+        background-image: url(https://d2r9epyceweg5n.cloudfront.net/stores/001/044/820/themes/idea/1-img-176017535-1663786751-481ba5b0d7fbb75ceabc63be6b6dde751663786751-1024-1024.webp?46611680);
         width: 300px;
         height: 300px;
         display: flex;
-        align-items: flex-end;
+        align-items: center;
         flex-direction: column;
-        justify-content: center;
+        justify-content: space-between;
         color: $secondary-color;
-        font-size: 42px;
+        font-size: 35px;
         font-weight: 700;
         background-repeat: no-repeat;
         background-size: cover;
+        background-color:$gold-color ;
+        background-blend-mode:hard-light;
         margin: 20px 0;
+        
     }
     .img-2{
-        background-image: url(https://www.jessannkirby.com/wp-content/uploads/2019/10/Jess-Ann-Kirby-How-to-Wear-Oversize-Sweaters-1740493.jpg);
+        background-image: url(https://d2r9epyceweg5n.cloudfront.net/stores/001/044/820/products/india6811-acf5ccfd08eecdc64216637260605424-1024-1024.jpeg);
         width: 300px;
         height: 300px;
         display: flex;
-        align-items: flex-end;
+        align-items: center;
         flex-direction: column;
-        justify-content: center;
+        justify-content: space-between;
         color: $secondary-color;
-        font-size: 42px;
+        font-size: 35px;
         font-weight: 700;
         background-repeat: no-repeat;
         background-size: cover;
+        background-color:$background-color ;
+        background-blend-mode:hard-light;
     
     }
     .img-3{
-        background-image: url(https://i.pinimg.com/236x/86/77/3c/86773ce21db1a6037104eddb2ff85470.jpg);
+        background-image: url(https://d2r9epyceweg5n.cloudfront.net/stores/001/044/820/products/dsc_0119-21-0c81404778253e675216043295153415-1024-1024.jpg);
         width: 300px;
         height: 300px;
         display: flex;
-        align-items: flex-end;
+        align-items: center;
         flex-direction: column;
-        justify-content: center;
+        justify-content: space-between;
         color: $secondary-color;
-        font-size: 42px;
+        font-size: 35px;
         font-weight: 700;
         background-repeat: no-repeat;
         background-size: cover;
-        margin: 20px 0;
+        background-color:$background-color ;
+        background-blend-mode:hard-light;
+        margin: 10px 0;
     }
 }
 

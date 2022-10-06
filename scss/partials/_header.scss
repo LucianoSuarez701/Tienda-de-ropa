@@ -22,10 +22,16 @@ nav{
     .navbar-nav{
         li{
             a{
-                        text-decoration: none;
-                        color: $tertiary-color;
-                        font-size: 20px;
-                        font-weight: 600;
+                text-decoration: none;
+                color: $tertiary-color;
+                font-size: 20px;
+                font-weight: 600;
+
+                &:hover{
+                    scale: 1.1;
+                    color: $cuartiary-color;
+                    border-radius: 30px;
+                }
             }
         }
     }
@@ -37,11 +43,11 @@ nav{
     height: 200px;
 
     h1{
-        font-size: 60px;
+        font-size: 40px;
         font-family: 'Poppins', sans-serif;
         font-weight: 700;
         text-align: center;
-        padding-top: 50px;
+        padding-top: 10px;
         color: $black-color;
 
         @media (max-width: 586px){

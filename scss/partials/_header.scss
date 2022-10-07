@@ -26,6 +26,7 @@ nav{
                 color: $tertiary-color;
                 font-size: 20px;
                 font-weight: 600;
+                transition: all 0.25s ease-in;
 
                 &:hover{
                     scale: 1.1;

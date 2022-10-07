@@ -1,8 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Comfortaa:wght@300&family=Mulish:wght@300&family=Open+Sans:wght@300;400;700&family=Oswald:wght@300&family=Poppins:wght@300&display=swap');
+
+@import "../variables";
+
 .container-parrafo{
     padding: 10px;
 
     .quienes-somos{
         font-family: cursive;
         padding: 100px;
+    }
+}
+
+.portada-quienes-somos{
+    background: $secondary-color;
+    width: 100%;
+    height: auto;
+
+    h1{
+        font-size: 40px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 700;
+        text-align: center;
+        padding-top: 10px;
+        color: $black-color;
+
+        @media (max-width: 586px){
+            font-size: 50px;
+        }
     }
 }

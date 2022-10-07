@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Comfortaa:wght@300&family=Mulish:wght@300&family=Open+Sans:wght@300;400;700&family=Oswald:wght@300&family=Poppins:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Comfortaa:wght@300&family=Mulish:wght@300&family=Open+Sans:wght@300;400;700&family=Oswald:wght@300&family=Poppins:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Comfortaa:wght@300&family=Mulish:wght@300&family=Open+Sans:wght@300;400;700&family=Oswald:wght@300&family=Poppins:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Comfortaa:wght@300&family=Mulish:wght@300&family=Open+Sans:wght@300;400;700&family=Oswald:wght@300&family=Poppins:wght@300&display=swap");
 .footer {
   padding-top: 20px;
   border-top: 0.5px solid;
@@ -444,6 +445,25 @@ nav .navbar-nav li a:hover {
 .container-parrafo .quienes-somos {
   font-family: cursive;
   padding: 100px;
+}
+
+.portada-quienes-somos {
+  background: #ffffff;
+  width: 100%;
+  height: auto;
+}
+.portada-quienes-somos h1 {
+  font-size: 40px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  text-align: center;
+  padding-top: 10px;
+  color: #000000;
+}
+@media (max-width: 586px) {
+  .portada-quienes-somos h1 {
+    font-size: 50px;
+  }
 }
 
 .devoluciones p {

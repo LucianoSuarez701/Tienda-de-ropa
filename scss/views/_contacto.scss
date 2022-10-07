@@ -21,3 +21,18 @@
         }
     }
 }
+
+.contacto-main{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    ul{
+        list-style: none;
+
+        li{
+            margin: 4px;
+            color: $tertiary-color;
+            padding-bottom: 25px;
+        }
+    }
+}

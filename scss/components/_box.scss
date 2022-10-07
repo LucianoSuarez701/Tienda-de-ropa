@@ -7,7 +7,7 @@
 
 .box-imagenes{
     .img-1{
-        background-image: url(https://d2r9epyceweg5n.cloudfront.net/stores/001/044/820/themes/idea/1-img-176017535-1663786751-481ba5b0d7fbb75ceabc63be6b6dde751663786751-1024-1024.webp?46611680);
+        background-image: url(https://d2r9epyceweg5n.cloudfront.net/stores/001/044/820/products/india2941-6c8ee0737e459b568f16636000446345-1024-1024.jpeg);
         width: 300px;
         height: 300px;
         display: flex;
@@ -19,7 +19,8 @@
         font-weight: 700;
         background-repeat: no-repeat;
         background-size: cover;
-        background-color:$gold-color ;
+        background-position: top;
+        background-color:$grey-color ;
         background-blend-mode:hard-light;
 
         border-radius: 10px;
@@ -38,12 +39,13 @@
         font-weight: 700;
         background-repeat: no-repeat;
         background-size: cover;
-        background-color:$background-color ;
+        background-position: top;
+        background-color:$grey-color ;
         background-blend-mode:hard-light;
         border-radius: 10px;
     }
     .img-3{
-        background-image: url(https://d2r9epyceweg5n.cloudfront.net/stores/001/044/820/products/dsc_0119-21-0c81404778253e675216043295153415-1024-1024.jpg);
+        background-image: url(https://d2r9epyceweg5n.cloudfront.net/stores/001/044/820/products/india11731-458b6123353d2dfc2d16636957887123-1024-1024.jpeg);
         width: 300px;
         height: 300px;
         display: flex;
@@ -55,7 +57,7 @@
         font-weight: 700;
         background-repeat: no-repeat;
         background-size: cover;
-        background-color:$background-color ;
+        background-color:$grey-color ;
         background-blend-mode:hard-light;
         border-radius: 10px;
     }

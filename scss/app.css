@@ -46,6 +46,7 @@
 
 .bienvenida {
   background-color: rgba(163, 49, 3, 0.3019607843);
+  padding-top: 10px;
 }
 .bienvenida p {
   color: #ffffff;

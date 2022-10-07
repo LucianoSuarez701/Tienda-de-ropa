@@ -90,6 +90,7 @@ nav .navbar-nav li a:hover {
   justify-content: center;
   border-radius: 10px;
   margin-bottom: 50px;
+  transition: all 0.25s ease-in;
 }
 .boton-card:hover {
   transform: scale(1.1);
@@ -100,16 +101,27 @@ nav .navbar-nav li a:hover {
 #boton {
   background-color: #E054B8;
   border: none;
+  transition: all 0.25s ease-in;
 }
 #boton:hover {
   transform: scale(1.1);
 }
 
 #boton-formulario {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  border-radius: 10px;
   background: #f4a152;
   border: none;
   color: #ffffff;
   font-size: 17px;
+  height: 40px;
+  width: 147px;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  transition: all 0.25s ease-in;
 }
 #boton-formulario:hover {
   transform: scale(1.1);
@@ -124,6 +136,7 @@ nav .navbar-nav li a:hover {
   color: #ffffff;
   border: none;
   margin-bottom: 40px;
+  transition: all 0.25s ease-in;
 }
 .boton-productos:hover, .boton-productos:active, .boton-productos:focus {
   background-color: #ffffff;
@@ -332,8 +345,7 @@ nav .navbar-nav li a:hover {
   margin-bottom: 20px;
   border-radius: 10px;
   padding: 5px 20px;
-  color: #ffffff;
-  background-color: #A33103;
+  color: #A33103;
 }
 
 .portada-index {

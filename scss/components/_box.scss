@@ -22,8 +22,11 @@
         background-position: top;
         background-color:$grey-color ;
         background-blend-mode:hard-light;
-
         border-radius: 10px;
+
+        @media (max-width: 586px){
+            margin-bottom: 20px;
+        }
         
     }
     .img-2{
@@ -43,6 +46,11 @@
         background-color:$grey-color ;
         background-blend-mode:hard-light;
         border-radius: 10px;
+
+        
+        @media (max-width: 586px){
+            margin-bottom: 20px;
+        }
     }
     .img-3{
         background-image: url(https://d2r9epyceweg5n.cloudfront.net/stores/001/044/820/products/india11731-458b6123353d2dfc2d16636957887123-1024-1024.jpeg);
@@ -60,7 +68,9 @@
         background-color:$grey-color ;
         background-blend-mode:hard-light;
         border-radius: 10px;
+
     }
+
 }
 
 .card{

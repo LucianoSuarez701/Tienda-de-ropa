@@ -169,6 +169,11 @@ nav .navbar-nav li a:hover {
   background-blend-mode: hard-light;
   border-radius: 10px;
 }
+@media (max-width: 586px) {
+  .box-imagenes .img-1 {
+    margin-bottom: 20px;
+  }
+}
 .box-imagenes .img-2 {
   background-image: url(https://d2r9epyceweg5n.cloudfront.net/stores/001/044/820/products/india6811-acf5ccfd08eecdc64216637260605424-1024-1024.jpeg);
   width: 300px;
@@ -186,6 +191,11 @@ nav .navbar-nav li a:hover {
   background-color: rgb(47, 47, 49);
   background-blend-mode: hard-light;
   border-radius: 10px;
+}
+@media (max-width: 586px) {
+  .box-imagenes .img-2 {
+    margin-bottom: 20px;
+  }
 }
 .box-imagenes .img-3 {
   background-image: url(https://d2r9epyceweg5n.cloudfront.net/stores/001/044/820/products/india11731-458b6123353d2dfc2d16636957887123-1024-1024.jpeg);
@@ -365,7 +375,7 @@ nav .navbar-nav li a:hover {
 }
 @media (max-width: 586px) {
   .portada-index h1 {
-    font-size: 50px;
+    font-size: 40px;
   }
 }
 
@@ -378,16 +388,16 @@ nav .navbar-nav li a:hover {
   font-size: 22px;
   line-height: 1.4;
 }
+@media (max-width: 586px) {
+  .beneficios div h3 {
+    font-size: 20px;
+  }
+}
 .beneficios div p {
   font-family: "Mulish", sans-serif;
   font-weight: 300;
   font-size: 14px;
   line-height: 16px;
-}
-@media (max-width: 586px) {
-  .beneficios div {
-    font-size: 20px;
-  }
 }
 
 .title-secondary {
@@ -450,13 +460,14 @@ nav .navbar-nav li a:hover {
 }
 @media (max-width: 586px) {
   .title-secondary .texto-dinamico li {
-    font-size: 20px;
+    font-size: 25px;
   }
 }
 @media (max-width: 586px) {
   .title-secondary {
     display: flex;
     flex-wrap: wrap;
+    height: 30px;
   }
 }
 
@@ -475,7 +486,7 @@ nav .navbar-nav li a:hover {
 }
 @media (max-width: 586px) {
   .portada-contacto h1 {
-    font-size: 50px;
+    font-size: 40px;
   }
 }
 
@@ -500,6 +511,11 @@ nav .navbar-nav li a:hover {
   font-family: cursive;
   padding: 100px;
 }
+@media (max-width: 586px) {
+  .container-parrafo .quienes-somos {
+    padding: 5px;
+  }
+}
 
 .portada-quienes-somos {
   background: #ffffff;
@@ -516,7 +532,7 @@ nav .navbar-nav li a:hover {
 }
 @media (max-width: 586px) {
   .portada-quienes-somos h1 {
-    font-size: 50px;
+    font-size: 40px;
   }
 }
 
@@ -535,13 +551,18 @@ nav .navbar-nav li a:hover {
 }
 @media (max-width: 586px) {
   .portada-devoluciones h1 {
-    font-size: 50px;
+    font-size: 40px;
   }
 }
 
 .devoluciones p {
   font-family: cursive;
   padding: 100px;
+}
+@media (max-width: 586px) {
+  .devoluciones p {
+    padding: 5px;
+  }
 }
 
 .portada-productos {
@@ -559,6 +580,6 @@ nav .navbar-nav li a:hover {
 }
 @media (max-width: 586px) {
   .portada-productos h1 {
-    font-size: 50px;
+    font-size: 40px;
   }
 }/*# sourceMappingURL=app.css.map */

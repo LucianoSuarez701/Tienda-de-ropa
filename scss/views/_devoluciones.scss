@@ -17,12 +17,17 @@
         color: $tertiary-color;
 
         @media (max-width: 586px){
-            font-size: 50px;
+            font-size: 40px;
         }
     }
 }
 
 .devoluciones{
     p{font-family: cursive;
-    padding: 100px;}
+    padding: 100px;
+    
+    @media (max-width: 586px){
+        padding: 5px;
+    }
+}
 }
